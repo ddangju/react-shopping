@@ -1,12 +1,12 @@
 import React from "react";
 
 const Card = (props) => {
-  console.log(props);
   return (
     <div className="container">
       <div className="row">
         <div className="col-md-4">
           <img
+            alt="사진"
             src={`https://codingapple1.github.io/shop/shoes${
               props.idx + 1
             }.jpg`}
