@@ -1,15 +1,29 @@
-.backContainer {
+.backgroundContainer {
   /* display: flex; */
   width: 100vw;
-  height: 50vh;
+  height: 70vh;
   text-align: center;
   background-size: cover;
+  height: 70vh;
 
-  /* flex-direction: column;
+  flex-direction: column;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
 }
 .imgContainer {
-  width: 70%;
+  width: 90%;
   /* margin: auto 0; */
+}
+
+.container {
+  display: flex;
+  width: 100vh;
+  margin-top: 1vh;
+}
+
+.row {
+  justify-content: center;
+}
+.col-md-4 {
+  width: 35vh;
 }

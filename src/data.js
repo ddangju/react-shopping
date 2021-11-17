@@ -1,4 +1,4 @@
-const data = [
+const cardData = [
   {
     id: 0,
     title: "White and Black",
@@ -24,7 +24,7 @@ const data = [
   },
 ];
 
-export default data;
+export default cardData;
 ////export 경우는 내보내는 문법
 /// var name = " kim"
 /// export default name
