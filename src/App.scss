@@ -31,3 +31,20 @@
 .navContainer {
   width: 100%;
 }
+
+.my-alert {
+  background: #eeeeee;
+  padding: 15px;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.my-alert2 {
+  @extend .my-alert;
+  background: rgb(255, 255, 143);
+}
+
+.my-alert p {
+  margin-bottom: 0;
+}

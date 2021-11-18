@@ -7,8 +7,7 @@ import CardData from "./data.js";
 import Product from "./Product";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
-import "../src/App.css";
-import "./index.css";
+import "../src/App.scss";
 
 ReactDOM.render(
   <React.StrictMode>
